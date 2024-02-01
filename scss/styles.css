@@ -1,0 +1,57 @@
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+.product-card__image {
+  background-image: url("../img/iPhone-15-Pro.webp");
+  background-size: cover;
+  border-radius: 5px;
+  flex: 0 0 150px;
+  height: 150px;
+  margin-right: 20px;
+  width: 150px;
+}
+.product-card__content {
+  flex-grow: 1;
+}
+.product-card__title {
+  color: #336ec2;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.product-card__description {
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.product-card__price {
+  color: #168646;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.product-card__button {
+  background-color: #336ec2;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  display: block;
+  margin: 20px 0 0;
+}
+.product-card__button:hover {
+  background-color: #1e4071;
+}
+
+/*# sourceMappingURL=styles.css.map */
